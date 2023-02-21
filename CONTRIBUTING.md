@@ -7,9 +7,9 @@ like you that make gocnab such a great library.
 
 If you've noticed a bug or have a question that doesn't belong on the
 [Stack Overflow](http://stackoverflow.com/questions/tagged/gocnab),
-[search the issue tracker](https://github.com/rafaeljusto/gocnab/issues?q=something)
+[search the issue tracker](https://github.com/ammeg/gocnab/issues?q=something)
 to see if someone else in the community has already created a ticket.
-If not, go ahead and [make one](https://github.com/rafaeljusto/gocnab/issues/new)!
+If not, go ahead and [make one](https://github.com/ammeg/gocnab/issues/new)!
 
 ### 2. Fork & create a branch
 
@@ -27,9 +27,9 @@ go test
 
 #### 4. Did you find a bug?
 
-* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/rafaeljusto/gocnab/issues).
+* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/ammeg/gocnab/issues).
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/rafaeljusto/gocnab/issues/new). 
+* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/ammeg/gocnab/issues/new). 
 Be sure to include a **title and clear description**, as much relevant information as possible, 
 and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
 
@@ -49,7 +49,7 @@ At this point, you should switch back to your master branch and make sure it's
 up to date with gocnab's master branch:
 
 ```sh
-git remote add upstream git@github.com:rafaeljusto/gocnab.git
+git remote add upstream git@github.com:ammeg/gocnab.git
 git checkout master
 git pull upstream master
 ```

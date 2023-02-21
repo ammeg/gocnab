@@ -1,3 +1,3 @@
-module github.com/rafaeljusto/gocnab
+module github.com/ammeg/gocnab
 
 go 1.16

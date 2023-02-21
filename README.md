@@ -1,10 +1,10 @@
-[![GoDoc](https://godoc.org/github.com/rafaeljusto/gocnab?status.png)](https://godoc.org/github.com/rafaeljusto/gocnab)
-[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rafaeljusto/gocnab/master/LICENSE)
-[![Build Status](https://travis-ci.org/rafaeljusto/gocnab.svg?branch=master)](https://travis-ci.org/rafaeljusto/gocnab)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rafaeljusto/gocnab)](https://goreportcard.com/report/github.com/rafaeljusto/gocnab)
-[![codebeat badge](https://codebeat.co/badges/b3a4c784-49db-4e3f-81f7-c35f4e35f70a)](https://codebeat.co/projects/github-com-rafaeljusto-gocnab-master)
+[![GoDoc](https://godoc.org/github.com/ammeg/gocnab?status.png)](https://godoc.org/github.com/ammeg/gocnab)
+[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ammeg/gocnab/master/LICENSE)
+[![Build Status](https://travis-ci.org/ammeg/gocnab.svg?branch=master)](https://travis-ci.org/ammeg/gocnab)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ammeg/gocnab)](https://goreportcard.com/report/github.com/ammeg/gocnab)
+[![codebeat badge](https://codebeat.co/badges/b3a4c784-49db-4e3f-81f7-c35f4e35f70a)](https://codebeat.co/projects/github-com-ammeg-gocnab-master)
 
-![toglacier](https://raw.githubusercontent.com/rafaeljusto/gocnab/master/gocnab.png)
+![toglacier](https://raw.githubusercontent.com/ammeg/gocnab/master/gocnab.png)
 
 # gocnab
 
@@ -27,7 +27,7 @@ implement `gocnab.Marshaler`, `gocnab.Unmarshaler`, `encoding.TextMarshaler` and
 ## Install
 
 ```
-go get -u github.com/rafaeljusto/gocnab
+go get -u github.com/ammeg/gocnab
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ For working with only a single line of the CNAB file:
 ```go
 package main
 
-import "github.com/rafaeljusto/gocnab"
+import "github.com/ammeg/gocnab"
 
 type example struct {
 	FieldA int     `cnab:"0,20"`
@@ -77,7 +77,7 @@ And for the whole CNAB file:
 ```go
 package main
 
-import "github.com/rafaeljusto/gocnab"
+import "github.com/ammeg/gocnab"
 
 type header struct {
 	Identifier string `cnab:"0,1"`
